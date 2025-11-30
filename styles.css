@@ -19,7 +19,8 @@ a {
 }
 
 .body_part_one {
-    padding: 0rem 28rem;
+    padding-left: 28rem;
+    padding-right: 28rem;
 }
 
 .header {
@@ -60,17 +61,16 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 28rem;
 }
 
 .left-side_one h1 {
-    width: 28rem;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
 .left-side_one p {
-    width: 28rem;
     font-size: 18px;
     color: #E5E7EB;
 }
