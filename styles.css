@@ -53,13 +53,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 8rem;
+    padding-top: 7rem;
 }
 
 .left-side_one {
     display: flex;
     flex-direction: column;
-    row-gap: 0.25rem;
+    justify-content: space-around;
 }
 
 .left-side_one h1 {
@@ -75,13 +75,16 @@ a {
     color: #E5E7EB;
 }
 
-.left-side_one a {  /* try using a container to fix the gap problem  */
+.left-side_one a {
+    display: inline-block;
     width: 4rem;
     background-color: #3882F6;
     color: #F9FAF8;
+    margin-top: 0.8rem;
     padding: 8px 32px;
     text-align: center;
     border-radius: 8px;
+    font-size: 18px;
     font-weight: bold;
 }
 
