@@ -21,6 +21,7 @@ a {
 .body_part_one {
     padding-left: 28rem;
     padding-right: 28rem;
+    padding-bottom: 8rem;
 }
 
 .header {
@@ -37,7 +38,7 @@ a {
 
 .header .links {
     display: flex;
-    gap: 1.5em;
+    gap: 1.5rem;
 }
 
 .header a {
@@ -52,6 +53,7 @@ a {
 
 .container_part_one {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding-top: 7rem;
