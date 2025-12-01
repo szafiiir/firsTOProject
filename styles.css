@@ -53,7 +53,6 @@ a {
 
 .container_hero {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 16rem;
@@ -98,10 +97,6 @@ a {
     color: #F9FAF8;
 }
 
-.right-side_one {
-    height: 15rem;
-    flex: 1;
-}
 
 .right-side_one img {
     height: 15rem;
@@ -110,7 +105,7 @@ a {
 
 
 .body_part_two_color {
-    background-color: black;
+    background-color: white;
 }
 
 .body_part_two {
@@ -166,5 +161,31 @@ a {
 .body_part_three {
     padding-left: 34rem;
     padding-right: 34rem;
-    padding-bottom: 8rem;
+    padding-bottom: 7rem;
+    padding-top: 8rem;
 }
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.container_quote {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 2rem;
+}
+
+
+
+/* padding or margin?!?!?! think about it i mean from the beginning, polish the code later!!! */
