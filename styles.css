@@ -21,7 +21,7 @@ a {
 .body_part_one {
     padding-left: 27.5rem;
     padding-right: 27.5rem;
-    padding-bottom: 8rem;
+    padding-bottom: 7.5rem;
 }
 
 .header_hero {
@@ -100,7 +100,7 @@ a {
 
 .right-side_one img {
     height: 15rem;
-    width: 33rem;
+    width: 32.5rem;
 }
 
 
@@ -111,14 +111,14 @@ a {
 .body_part_two {
     padding-left: 34rem;
     padding-right: 34rem;
-    padding-bottom: 8rem;
+    padding-bottom: 7.5rem;
+    padding-top: 3rem;
 }
 
 .header_info {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 3rem;
 }
 
 .header_info h1 {
@@ -159,9 +159,9 @@ a {
 }
 
 .body_part_three {
-    padding-left: 34rem;
-    padding-right: 34rem;
-    padding-bottom: 7rem;
+    padding-left: 34.5rem;
+    padding-right: 33.5rem;
+    padding-bottom: 6.5rem;
     padding-top: 8rem;
 }
 
@@ -187,5 +187,52 @@ a {
 }
 
 
+.body_part_four_color {
+    background-color: white;
+}
 
-/* padding or margin?!?!?! think about it i mean from the beginning, polish the code later!!! */
+.body_part_four {
+    padding-left: 27.5rem;
+    padding-right: 27.5rem;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+}
+
+.container_action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9.5rem;
+    border-radius: 10px;
+    background: #3882F6;
+}
+
+
+.headerAction {
+    color: white;
+    font-size: 24px;
+}
+
+.subtextAction {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+.buttonAction {
+    display: inline-block;
+    height: 2.3rem;
+    width: 8.2rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+/* padding or margin?!?!?! think about it i mean from the beginning, polish the code later!!! delete color div, no need.*/
